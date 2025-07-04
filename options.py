@@ -18,7 +18,7 @@ def parse_args(script):
   parser.add_argument('--train_aug'   , action='store_true',  help='perform data augmentation or not during training ')
   parser.add_argument('--name'        , default='tmp', type=str, help='')
   parser.add_argument('--save_dir'    , default='./output', type=str, help='')
-  parser.add_argument('--data_dir'    , default='/home/yxz/cdfsl_dataset', type=str, help='') 
+  parser.add_argument('--data_dir'    , default='/home/ys/cdfsl_dataset', type=str, help='') 
   parser.add_argument('--drop_layer', default=0, type=int)
   parser.add_argument('--epoch', default=0, type=int)
   parser.add_argument('--sim', default=0.3, type=float)
